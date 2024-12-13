@@ -1,0 +1,16 @@
+automation-with-maven
+├── README.md
+├── LICENSE
+├── tools.md
+├── CONTRIBUTING.md
+├── src
+│   ├── main
+│   │   └── Java
+│   │       └── com.example.App.java
+│   └── test
+│       └── Java
+│           └── com.example.AppTest.java
+├── pom.xml
+├── CI
+│   └── Jenkinsfile
+├── FAQ.md
