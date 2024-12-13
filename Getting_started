@@ -1,20 +1,30 @@
 1. Clone the Repository
+
          # To clone
+
            git clone https://github.com/i-am-monika/automation-with-maven.git
            cd automation-with-maven
 
 2. Build the Project
+
          # Run the following command to clean and compile the project:
+
             mvn clean compile
 
 3. Run Unit Tests
+
          # To execute all unit tests defined in the project:
+
             mvn test
 
 4. Package the Application
+
          # To create a .jar file of the application:
+
             mvn package
 
 5. Run the Application
+
          # Execute the packaged .jar file:
+         
           java -jar target/automation-with-maven-1.0-SNAPSHOT.jar
