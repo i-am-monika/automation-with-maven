@@ -5,12 +5,32 @@ This project showcases how to streamline the build, test, and deployment process
 
 FEATURES:
 
-Automated Build Lifecycle: Performed tasks like cleaning, compiling, testing, and packaging with a single command.
+* Automated Build Lifecycle: Performed tasks like cleaning, compiling, testing, and packaging with a single command.
 
-Dependency Management: Automatically resolved and manageed project dependencies with Maven's Central Repository.
+* Dependency Management: Automatically resolved and manageed project dependencies with Maven's Central Repository.
 
-Environment-Specific Profiles: Configure multiple build profiles for different environments (e.g., development, production).
+* Environment-Specific Profiles: Configure multiple build profiles for different environments (e.g., development, production).
 
-Unit Testing: Integrated JUnit framework to ensure code reliability through automated testing.
+* Unit Testing: Integrated JUnit framework to ensure code reliability through automated testing.
 
-CI/CD Integration: Seamlessly integrate with Jenkins to automate the build, test, and deployment process.
+* CI/CD Integration: Seamlessly integrate with Jenkins to automate the build, test, and deployment process.
+
+
+SET UP:
+
+automation-with-maven
+├── README.md
+├── LICENSE
+├── tools.md
+├── CONTRIBUTING.md
+├── src
+│   ├── main
+│   │   └── java
+│   │       └── com.example.App.java
+│   └── test
+│       └── java
+│           └── com.example.AppTest.java
+├── pom.xml
+├── ci
+│   └── Jenkinsfile
+├── FAQ.md
