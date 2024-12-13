@@ -8,7 +8,7 @@ Creating unit tests to verify the application’s functionality.
 Setting up Jenkins pipelines to enable CI/CD.
 
 
-TOOLS & TECHNOLOGIES
+TOOLS & TECHNOLOGIES:
 
 1. Maven
 Maven is the backbone of this project, used for build automation and dependency management.
