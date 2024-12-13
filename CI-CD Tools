@@ -1,0 +1,27 @@
+DESCRIPTION:
+
+The application is a simple Java program designed to demonstrate the practical implementation of Maven for build automation. The project covers:
+
+Defining dependencies and plugins in pom.xml.
+Using Maven's lifecycle phases (clean, compile, test, package) to automate tasks.
+Creating unit tests to verify the application’s functionality.
+Setting up Jenkins pipelines to enable CI/CD.
+
+
+TOOLS & TECHNOLOGIES
+
+1. Maven
+Maven is the backbone of this project, used for build automation and dependency management.
+Official Site: Apache Maven
+
+2. JUnit
+A popular framework for unit testing in Java, ensuring code correctness and reliability.
+Official Site: JUnit
+
+3. Jenkins
+An open-source automation server used for building CI/CD pipelines to automate software development workflows.
+Official Site: Jenkins
+
+4. Git
+A version control system to track changes and collaborate with teams.
+Official Site: Git
