@@ -1,0 +1,10 @@
+# Frequently Asked Questions (FAQ)
+
+ 1. How do I install Maven?
+Visit the [official installation guide](https://maven.apache.org/install.html) for step-by-step instructions.
+
+ 2. Why is my build failing?
+Check if all dependencies in `pom.xml` are resolved and that you are using the correct JDK version.
+
+ 3. Can I use this project for other languages?
+Maven is primarily designed for Java applications but can be extended for other projects using plugins.
