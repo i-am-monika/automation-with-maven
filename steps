@@ -1,0 +1,8 @@
+Step 1: Clone the PetClinic Project Repository
+
+# Start by cloning the PetClinic project from its GitHub repository. The Spring PetClinic is a sample project widely used for learning and practicing Java-based web development.
+
+# Clone the project repository
+  git clone https://github.com/spring-projects/spring-petclinic.git
+  cd spring-petclinic
+
