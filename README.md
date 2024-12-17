@@ -15,22 +15,12 @@ FEATURES:
 
 * CI/CD Integration: Seamlessly integrate with Jenkins to automate the build, test, and deployment process.
 
+Prerequisites
 
-SET UP:
+* JDK 11 or higher installed
 
-automation-with-maven
-├── README.md
-├── LICENSE
-├── tools.md
-├── CONTRIBUTING.md
-├── src
-│   ├── main
-│   │   └── java
-│   │       └── com.example.App.java
-│   └── test
-│       └── java
-│           └── com.example.AppTest.java
-├── pom.xml
-├── ci
-│   └── Jenkinsfile
-├── FAQ.md
+* Maven installed and configured
+
+* Git installed
+
+* An IDE like IntelliJ IDEA or Eclipse (optional but recommended)
