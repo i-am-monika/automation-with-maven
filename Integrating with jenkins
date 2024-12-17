@@ -1,1 +1,49 @@
+Continuous Integration with Jenkins
+
+# You can integrate Maven automation with Jenkins for continuous integration.
+
+Step 1: Install Jenkins and Plugins
+
+Download Jenkins: Install Jenkins
+
+Install the Maven Integration Plugin: Go to Manage Jenkins > Manage Plugins > Install "Maven Integration Plugin".
+
+Step 2: Set Up Jenkins and Maven
+
+Install Maven: Ensure Maven is installed on your Jenkins server and configure it under Global Tool Configuration.
+
+Configure Jenkins Job:
+
+Create a New Item and select "Freestyle Project".
+
+Under Source Code Management, select Git and provide the PetClinic repository URL.
+
+Step 3: Add Build Steps
+
+In the Build section, add the following Maven goals:
+
+clean install - To clean the workspace and build the project.
+
+test - To execute the test cases.
+
+Step 4: Configure Post-Build Actions
+
+You can archive the generated JAR file or test reports by adding Post-Build Actions:
+
+Select Archive the Artifacts and mention the path to the JAR file (e.g., target/*.jar).
+
+Step 5: Schedule Builds
+
+Set up automated builds using:
+
+Poll SCM: Trigger builds when code changes are pushed to the repository.
+
+Build Periodically: Schedule builds at regular intervals.
+
+Step 6: Verify Jenkins Integration
+
+Push changes to the repository and monitor Jenkins logs to verify the build triggers automatically.
+
+Check the console output in Jenkins to ensure Maven goals (clean, install, test) are executed successfully.
+
 
