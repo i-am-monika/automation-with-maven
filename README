@@ -1,0 +1,92 @@
+# ⚙️ Automation with Maven — CI/CD Fundamentals
+
+A hands-on implementation of build automation and CI/CD fundamentals using Apache Maven with the PetClinic Java application. Followed structured learning material and ran the full pipeline end-to-end independently.
+
+---
+
+## 📌 What This Project Covers
+
+This project walks through automating the **build, test, and deployment** lifecycle of a Java application using Maven — a core skill in any DevOps/CI/CD workflow.
+
+---
+
+## 🔧 Tech Stack
+
+| Tool | Role |
+|---|---|
+| **Java** | Application language (Spring PetClinic) |
+| **Apache Maven** | Build automation & dependency management |
+| **Git** | Version control |
+| **CI/CD Concepts** | Pipeline structure & automation principles |
+
+---
+
+## 🚀 What Was Implemented
+
+- ✅ Set up Maven project structure with `pom.xml` configuration
+- ✅ Automated dependency management using Maven Central
+- ✅ Ran build lifecycle phases: `validate → compile → test → package`
+- ✅ Generated build artifacts (`.jar` / `.war`)
+- ✅ Understood how Maven integrates into CI/CD pipelines (Jenkins, GitHub Actions)
+
+---
+
+## 📋 How to Run
+
+### Prerequisites
+- Java JDK 11+
+- Apache Maven 3.6+
+- Git
+
+### Steps
+
+```bash
+# Clone the repository
+git clone https://github.com/i-am-monika/automation-with-maven.git
+cd automation-with-maven
+
+# Compile the project
+mvn compile
+
+# Run tests
+mvn test
+
+# Package into a JAR/WAR
+mvn package
+
+# Full clean build
+mvn clean install
+```
+
+---
+
+## 📂 Maven Build Lifecycle
+
+```
+validate → initialize → compile → test → package → verify → install → deploy
+```
+
+This project focuses on the `compile → test → package` stages as the core of a CI pipeline.
+
+---
+
+## 🚀 What I Learned
+
+- How Maven manages dependencies and build lifecycles
+- The role of `pom.xml` in project configuration
+- How build tools like Maven plug into Jenkins/GitHub Actions pipelines
+- Practical understanding of artifact generation for deployment
+
+---
+
+## 🔗 Related Projects
+
+- [AWS Three-Tier Architecture](https://github.com/i-am-monika/3tier) — Cloud infrastructure project
+- [Jenkins CI/CD Pipeline](https://github.com/i-am-monika/Jenkins) — Full pipeline with Docker & ArgoCD
+
+---
+
+## 👩‍💻 Author
+
+**Mounika G** — Cloud & DevOps Engineer  
+[LinkedIn](https://linkedin.com/in/mounika-g-129363285) · [Portfolio](https://i-am-monika.github.io) · [GitHub](https://github.com/i-am-monika)
